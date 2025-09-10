@@ -18,14 +18,11 @@ public class HomeController : Controller
     // Tapşırıq: DI (Dependency Injection) prinsipi ilə asılılıqları elə bir şəkildə qurmaq lazımdır ki,
     // asılılıqlar class tərəfindən istifadə edilmədən əvvəl xaricdə yaradılacaq.
     // DI container - asılılıqları yaratmaq və onları konstruktor vasitəsilə class-a ötürmək üçün məsul olan komponentdir.
-
-    private readonly Messanger _messanger;
-
-    public HomeController(Messanger messanger)
+    private readonly IMessanger _messanger;
+    public HomeController(IMessanger messanger)
     {
         _messanger = messanger;
     }
-
     public IActionResult Index()
     {
         return View();

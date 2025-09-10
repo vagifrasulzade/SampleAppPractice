@@ -1,11 +1,11 @@
 ﻿namespace SampleAppPractice.Models;
 
-public class Messanger
+public class Messanger : IMessanger
 {
-    private readonly SmtpClient _client;
-    private readonly MessageFactory _factory;
+    private readonly ISmtpClient _client;
+    private readonly IMessageFactory _factory;
 
-    public Messanger(SmtpClient client, MessageFactory factory)
+    public Messanger(ISmtpClient client, IMessageFactory factory)
     {
         _client = client;
         _factory = factory;

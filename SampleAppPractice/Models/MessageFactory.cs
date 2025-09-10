@@ -1,8 +1,8 @@
 ﻿namespace SampleAppPractice.Models;
 
-public class MessageFactory
+public class MessageFactory : IMessageFactory
 {
-    internal SmtpMessage Create(string message)
+    public SmtpMessage Create(string message)
     {
         return new SmtpMessage() { Body = message };
     }

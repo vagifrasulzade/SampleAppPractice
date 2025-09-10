@@ -2,7 +2,7 @@
 
 namespace SampleAppPractice.Models;
 
-public class SmtpClient
+public class SmtpClient : ISmtpClient
 {
     private readonly SmtpSettings _settings;
 
@@ -11,13 +11,12 @@ public class SmtpClient
         _settings = settings;
     }
 
-    internal void Send(SmtpMessage smtpMessage)
+    public void Send(SmtpMessage smtpMessage)
     {
         Debug.WriteLine("Message sent by SmtpClient.");
     }
+
+
 }
 
-public class SmtpMessage
-{
-    public string Body { get; internal set; }
-}
+

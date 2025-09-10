@@ -721,10 +721,11 @@ C:\Users\LOQ\Desktop\SampleAppPractice\SampleAppPractice\obj\Debug\net6.0\static
 C:\Users\LOQ\Desktop\SampleAppPractice\SampleAppPractice\obj\Debug\net6.0\staticwebassets.build.json.cache
 C:\Users\LOQ\Desktop\SampleAppPractice\SampleAppPractice\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\LOQ\Desktop\SampleAppPractice\SampleAppPractice\obj\Debug\net6.0\staticwebassets.build.endpoints.json
-C:\Users\LOQ\Desktop\SampleAppPractice\SampleAppPractice\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
 C:\Users\LOQ\Desktop\SampleAppPractice\SampleAppPractice\obj\Debug\net6.0\SampleAp.54263AB2.Up2Date
 C:\Users\LOQ\Desktop\SampleAppPractice\SampleAppPractice\obj\Debug\net6.0\SampleAppPractice.dll
 C:\Users\LOQ\Desktop\SampleAppPractice\SampleAppPractice\obj\Debug\net6.0\refint\SampleAppPractice.dll
 C:\Users\LOQ\Desktop\SampleAppPractice\SampleAppPractice\obj\Debug\net6.0\SampleAppPractice.pdb
 C:\Users\LOQ\Desktop\SampleAppPractice\SampleAppPractice\obj\Debug\net6.0\SampleAppPractice.genruntimeconfig.cache
 C:\Users\LOQ\Desktop\SampleAppPractice\SampleAppPractice\obj\Debug\net6.0\ref\SampleAppPractice.dll
+C:\Users\LOQ\Desktop\SampleAppPractice\SampleAppPractice\obj\Debug\net6.0\SampleAppPractice.sourcelink.json
+C:\Users\LOQ\Desktop\SampleAppPractice\SampleAppPractice\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
